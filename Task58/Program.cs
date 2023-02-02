@@ -6,22 +6,6 @@
 // 18 20
 // 15 18
 
-
-// int[,] CreateFirstMatrixRndInt(int rows, int columns, int min, int max)
-// {
-//     int[,] firstMatrix = new int[rows, columns];
-//     Random rnd = new Random();
-
-//     for (int i = 0; i < firstMatrix.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < firstMatrix.GetLength(1); j++)
-//         {
-//             firstMatrix[i, j] = rnd.Next(min, max + 1);
-//         }
-//     }
-//     return firstMatrix;
-// }
-
 int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)
 {
     int[,] matrix = new int[rows, columns];
